@@ -1,6 +1,6 @@
 body {
   margin: 0px auto;
-  background-color: #b49594;
+  background-color: #f8c0c8;
 }
 /* Main Page Css */
 .headerContainer {
@@ -36,7 +36,7 @@ body {
 /* Style the navigation menu */
 .navbar {
   width: 100%;
-  background-color: #d5dfe5;
+  background-color: #ece3f0;
   /* overflow: auto; */
   display: flex;
   justify-content: center;
@@ -79,11 +79,23 @@ body {
 
 .contentStyles {
   display: inline-flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  padding: 0.25em 0 0 0.25em;
+}
+
+.col1 {
+  width: 45%;
+}
+
+.col2 {
+  width: 55%;
 }
 .phoneNumStyles {
   display: inline-flex;
   justify-content: space-evenly;
-  border: 2px solid black;
+  border: 2px solid #efe7d3;
+  box-shadow: 1px 1px 12px #efe7d3;
   width: 100%;
   padding: 1.5em 1.5em;
 }
