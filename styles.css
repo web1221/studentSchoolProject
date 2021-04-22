@@ -1,15 +1,8 @@
-/* body {
-  background-image: url("./img/linedPaper2.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
 body {
   margin: 0px auto;
   background-color: #b49594;
 }
-
+/* Main Page Css */
 .headerContainer {
   text-align: center;
   border-bottom: #d5dfe5 3px solid;
@@ -30,7 +23,7 @@ body {
 
 .homePageImage {
   width: 30%;
-  height: 30%;
+  height: 100vh;
 }
 /* 
 .navBar {
@@ -77,4 +70,13 @@ body {
     width: 100%;
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
+}
+
+/* HelpPageCss */
+.helpPageHeader {
+  text-align: center;
+}
+
+.contentStyles {
+  display: inline-flex;
 }
