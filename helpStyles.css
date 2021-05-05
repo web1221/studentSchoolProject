@@ -1,6 +1,6 @@
-.helpPageHeader {
+/* .helpPageHeader {
   text-align: center;
-}
+} */
 
 .contentStyles {
   display: inline-flex;
@@ -32,5 +32,5 @@
 .phoneNumStyles a {
   color: black;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
